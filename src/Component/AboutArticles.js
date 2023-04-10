@@ -4,8 +4,12 @@ import aboutImg from "../Img/aboutImages/aboutImg.png";
 const AboutArticles = () => {
   return (
    <>
+   <div className="text-center pt-4">
      <div className="aboutCard">
-              <img src={aboutImg} class="card-img-top" alt="..." />
+              <img src={aboutImg} className="card-img-top"
+              style={{
+                width: "100%",
+                }} alt="..." />
               
               <div className="aboutcardBody">
               <br />
@@ -63,6 +67,7 @@ const AboutArticles = () => {
 
               
           </div>
+      </div>
     </>
   );
 };

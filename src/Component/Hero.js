@@ -1,5 +1,6 @@
 import React from "react";
 import backgroundImage from "../Img/homeImages/Heroimg.png";
+import { Link } from "react-bootstrap-icons";
 
 const Hero = () => {
   return (
@@ -26,11 +27,15 @@ const Hero = () => {
                 Want to eat healthy and stay fit <br />
                 resources,plans and articles just for you.
               </p>
-              <button className="button w-40">Sign Up</button>
+              <br />
+              <a href="SignUp"><button className="button w-40">Sign Up</button> </a>
+              
+              
             </div>
           </div>
         </section>
       </div>
+    
     </>
   );
 };

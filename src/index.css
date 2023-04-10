@@ -29,6 +29,12 @@
   color: white;
   padding: 1em;
 }
+/* hero sign up button */
+.button w-40{
+  background-color: #052e4d;
+  color: white;
+  padding: 1em;
+}
 .signInButton {
   background-color: transparent;
   width: 100px;

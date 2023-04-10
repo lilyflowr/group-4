@@ -30,7 +30,7 @@ const blogCards = () =>{
                 <p class="card-text">The method of lacto-fermentation is used to produce fermented foods. Lactic acid is produced naturally by microbes as they consume the food's sugar and starch. 
                 The food is preserved during this procedure, which also yields advantageous vitamins, minerals, and enzymes.</p>
                 <h4 class="card-readMore">
-                <Link to="/cardOne" ><strong>Read More </strong> </Link>
+                <a href="SignUp"><strong>Read More </strong> </a>
                 </h4>
               </div>
             </div>
