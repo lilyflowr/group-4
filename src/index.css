@@ -146,17 +146,9 @@ a {
   font-family: "Lato", sans-serif;
   font-family: "Open Sans", sans-serif;
   font-family: "Roboto", sans-serif;
-  
 }
 
-/* .navbar {
-  padding: 20px;
-  display: flex;
-  align-items: center;
-  max-width: 600px;
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
-} */
+
 .navbar h1 {
   color: #f1356d;
 }
@@ -214,32 +206,43 @@ a {
 /* blogCArds */
 .card-body {
   text-align:left;
-  
-
 }
+/* about card */
 
-.aboutCard {
+@media screen and (min-width: 200px) {
+  .aboutCard {
+  margin: auto;
+  width: auto;
+  }
+}
+   .aboutCard{
   padding-top: 65px;
-  padding-right: 425px;
-  padding-bottom: 65px;
-  width: 100%;
-  height: 100%;
-  margin-left: 225px;
+  width: 80%;
+  height: auto;
   justify-content: "center";
 }
-
 .aboutcard-text {
   text-align: left;
 }
 
-.contactForm{
-  padding-top: 65px;
-  padding-right: 25px;
-  padding-bottom: 65px;
-  padding-right: 10px;
-  margin-left: 525px;
-  justify-content: "center";
+
+/* all forms */
+@media screen and (min-width: 200px) {
+  .contactForm{
+    display: flex;
+    margin: auto;
+    width:auto;
+  }
 }
+/* contact, signin and sign up form */
+.contactForm{
+  
+  padding-top: 65px;
+  justify-content: "center";
+  width: 25%;
+  height: auto;
+}
+
 
 .liveChatButton{
   margin: 0;

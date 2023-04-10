@@ -132,7 +132,8 @@ const ContactForm = () => {
       >
         Send
       </MDBBtn>
-    </form></div>
+    </form>
+    </div>
     
   );
 };
