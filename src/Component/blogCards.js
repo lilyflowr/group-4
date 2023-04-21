@@ -30,7 +30,9 @@ const blogCards = () =>{
                 <p class="card-text">The method of lacto-fermentation is used to produce fermented foods. Lactic acid is produced naturally by microbes as they consume the food's sugar and starch. 
                 The food is preserved during this procedure, which also yields advantageous vitamins, minerals, and enzymes.</p>
                 <h4 class="card-readMore">
-                <a href="SignUp"><strong>Read More </strong> </a>
+                <Link to="/CardOne">
+                    <small>Read More</small>
+                  </Link>
                 </h4>
               </div>
             </div>
@@ -68,7 +70,7 @@ const blogCards = () =>{
                 <p class="card-text">Understanding what inflammation is in the first place is helpful in understanding why an anti-inflammatory diet might be beneficial and is now one of the most talked-about diets.
                  Perhaps the first thing that springs to mind when you hear the ...</p>
                 <h4 class="card-readMore">
-                  <a href=""><small>Read More</small></a>
+                <Link  to="/cardThree" ><strong>Read More </strong> </Link>
                 </h4>
               </div>
             </div>

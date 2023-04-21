@@ -6,6 +6,9 @@ import SignIn from "./Pages/signIn";
 import SignUp from "./Pages/SignUp";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
+import CardOne from "./Card/cardOne";
+import CardTwo from "./Card/cardTwo";
+import CardThree from "./Card/cardThree";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './index.css';
 // import { useState } from "react";
@@ -27,6 +30,9 @@ function App() {
         <Route path= "SignUp" element={<SignUp />} /> 
         <Route path="About" element={<About />} />
         <Route path="Contact" element={<Contact />} />
+        <Route path="CardOne" element={<CardOne />} />
+        <Route path="CardTwo" element={<CardTwo />} />
+        <Route path="CardThree" element={<CardThree />} />
       </Routes>
     </Router>
   );

@@ -90,7 +90,7 @@ const ContactForm = () => {
 
   return (
     <div className='contactForm'>
-        <form id='form' className='text-center' style={{ width: '100%', maxWidth: '300px' }}
+        <form id='form' className='text-center' style={{ width: '100%',  }}
     headers='application/json'
     name="contact-form"
     onSubmit={sendEmail}>
