@@ -1,15 +1,10 @@
-import React from 'react'
-import Footer from "../Component/Footer";
+import React from 'react';
 import Privacy from '../Component/Privacy';
 
 const PrivacyPolicy = () => {
   return (
     <>
- 
     <Privacy />
-
-<Footer />
-
     </>
   )
 }

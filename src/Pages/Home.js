@@ -21,7 +21,6 @@ const Home = () => {
       <Section3 />
       <Download />
       <Testimonal />
-     
       <Getstarted />
       <Newsletter />
       <Footer />

@@ -6,6 +6,7 @@ import Twitter from "../Img/homeImages/Twitter.png";
 import Whatsapp from "../Img/homeImages/WhatsApp.png";
 
 
+
 const Footer = () => {
   return (
     <>
@@ -45,7 +46,7 @@ const Footer = () => {
                 <a href="Contact">Contact Us</a>
               </li>
               <li>
-                <a href="PrivacyPolicy">Privacy Policy</a>
+              <a href="PrivacyPolicy">Privacy Policy</a>
               </li>
             </ul>
           </div>

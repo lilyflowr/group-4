@@ -5,6 +5,7 @@ import Blog from "./Pages/Blog";
 import SignIn from "./Pages/signIn";
 import SignUp from "./Pages/SignUp";
 import About from "./Pages/About";
+import PrivacyPolicy from "./Pages/PrivacyPolicy";
 import Contact from "./Pages/Contact";
 import CardOne from "./Card/cardOne";
 import CardTwo from "./Card/cardTwo";
@@ -12,7 +13,7 @@ import CardThree from "./Card/cardThree";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './index.css';
 // import { useState } from "react";
-import PrivacyPolicy from "./Pages/PrivacyPolicy";
+
 
 
 

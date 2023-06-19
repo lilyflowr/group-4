@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
 const Privacy = () => {
   return (
-    <>
+    
      <div className="aboutCard">
         <p class="aboutcard-text">
     Privacy Policy
@@ -48,7 +48,7 @@ By using the App, you acknowledge that you have read and understood this Privacy
 Thank you for your trust in FitTrack and for using FiTrack.
 </p>
 </div>
-</>
+
   )
 }
 export default Privacy;
