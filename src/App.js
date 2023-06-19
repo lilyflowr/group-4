@@ -12,6 +12,8 @@ import CardThree from "./Card/cardThree";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import './index.css';
 // import { useState } from "react";
+import PrivacyPolicy from "./Pages/PrivacyPolicy";
+
 
 
 function App() {
@@ -34,6 +36,8 @@ function App() {
         <Route path="CardOne" element={<CardOne />} />
         <Route path="CardTwo" element={<CardTwo />} />
         <Route path="CardThree" element={<CardThree />} />
+        <Route path="PrivacyPolicy" element={<PrivacyPolicy />} />
+
       </Routes>
     </Router>
   );
