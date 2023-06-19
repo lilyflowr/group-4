@@ -9,6 +9,7 @@ import Testimonal from "../Component/Testimonals";
 import Getstarted from "../Component/GetStarted";
 import Newsletter from "../Component/Newsletter";
 import Footer from "../Component/Footer";
+import PrivacyPolicy from "./PrivacyPolicy";
 
 const Home = () => {
   return (
@@ -20,7 +21,7 @@ const Home = () => {
       <Section3 />
       <Download />
       <Testimonal />
-
+      <PrivacyPolicy />
       <Getstarted />
       <Newsletter />
       <Footer />

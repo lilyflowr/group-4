@@ -5,6 +5,7 @@ import Instagram from "../Img/homeImages/Instagram.png";
 import Twitter from "../Img/homeImages/Twitter.png";
 import Whatsapp from "../Img/homeImages/WhatsApp.png";
 
+
 const Footer = () => {
   return (
     <>
@@ -12,7 +13,7 @@ const Footer = () => {
         <div className="foot">
           <div className="footerlogo">
             <div className="mb-4">
-              <a href="">
+              <a href="/">
                 <img src={Fitrack} alt="" />
               </a>
             </div>
@@ -43,22 +44,23 @@ const Footer = () => {
               <li>
                 <a href="Contact">Contact Us</a>
               </li>
+              <li>
+                <a href="PrivacyPolicy">Privacy Policy</a>
+              </li>
             </ul>
           </div>
           <div className="Company footerul">
             <ul>
               <li>
-                <a href="">+234 80 800000</a>
+                <a href="/">+234 80 800000</a>
               </li>
               <li>
-                <a href="">fittrack@gmail.com</a>
+                <a href="/">fittrack@gmail.com</a>
               </li>
               <li>
-                <a href="">Advertise with Us</a>
+                <a href="/">Advertise with Us</a>
               </li>
-              <li>
-                <a href="">Privacy Policy</a>
-              </li>
+          
             </ul>
           </div>
         </div>

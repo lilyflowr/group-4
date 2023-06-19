@@ -1,8 +1,11 @@
 import React from 'react'
+import Footer from "../Component/Footer";
 
-const privacypolicy = () => {
+const PrivacyPolicy = () => {
   return (
-    <div>
+    <>
+ 
+    <p class="aboutcard-text">
         Privacy Policy
 
 Last updated:19/06/2023
@@ -44,10 +47,12 @@ If you have any questions or concerns regarding this Privacy Policy or the App's
 By using the App, you acknowledge that you have read and understood this Privacy Policy and agree to its terms and conditions.
 
 Thank you for your trust in FitTrack and for using FiTrack.
+</p>
 
+<Footer />
 
-    </div>
+    </>
   )
 }
 
-export default privacypolicy
+export default PrivacyPolicy;
